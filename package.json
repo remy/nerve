@@ -1,0 +1,34 @@
+{
+  "name": "@remy/nerve",
+  "version": "1.0.0",
+  "description": "Next / Serve hybrid",
+  "main": "index.js",
+  "bin": {
+    "nerve": "./index.js"
+  },
+  "engines": {
+    "node": ">=8.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "now",
+    "next",
+    "next.js",
+    "serve"
+  ],
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": "*"
+  },
+  "devDependencies": {
+    "@remy/eslint": "^3.0.0",
+    "next": "*"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "serve-handler": "^3.5.0"
+  }
+}
